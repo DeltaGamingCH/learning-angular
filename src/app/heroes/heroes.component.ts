@@ -10,7 +10,7 @@ import { HeroDetailComponent } from "../hero-detail/hero-detail.component";
     selector: 'app-heroes',
     templateUrl: './heroes.component.html',
     styleUrl: './heroes.component.css',
-    imports: [TitleCasePipe, NgIf, NgFor, FormsModule, HeroDetailComponent]
+    imports: [NgFor, FormsModule, HeroDetailComponent]
 })
 export class HeroesComponent {
   heroes = HEROES;
