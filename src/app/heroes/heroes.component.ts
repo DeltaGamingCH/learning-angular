@@ -4,11 +4,10 @@ import { TitleCasePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrl: './heroes.component.css',
-  standalone: true,
-  imports: [FormsModule, TitleCasePipe]
+    selector: 'app-heroes',
+    templateUrl: './heroes.component.html',
+    styleUrl: './heroes.component.css',
+    imports: [FormsModule, TitleCasePipe]
 })
 export class HeroesComponent {
   hero: Hero = {
