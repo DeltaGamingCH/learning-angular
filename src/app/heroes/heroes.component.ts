@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css',
+  standalone: true,
+  imports: [FormsModule, TitleCasePipe]
 })
 export class HeroesComponent {
   hero: Hero = {
